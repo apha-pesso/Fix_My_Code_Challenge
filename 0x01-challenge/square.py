@@ -14,7 +14,7 @@ class Square():
                 setattr(self, key, value)
         else:
             self.width = width
-            #self.height = height
+            self.height = height
 
     def area_of_my_square(self):
         """ Area of the square """
@@ -22,11 +22,11 @@ class Square():
 
     def permiter_of_my_square(self):
         """Perimeter of the square"""
-        return (self.width * 4)
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         """Pretty printing"""
-        return "{}/{}".format(self.width, self.width)
+        return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
