@@ -22,11 +22,11 @@ class Square():
 
     def PermiterOfMySquare(self):
         """Perimeter of the square"""
-        return (self.width * 2) + (self.height * 2)
+        return (self.width * 2) + (self.width * 2)
 
     def __str__(self):
         """Pretty printing"""
-        return "{}/{}".format(self.width, self.height)
+        return "{}/{}".format(self.width, self.width)
 
 
 if __name__ == "__main__":
