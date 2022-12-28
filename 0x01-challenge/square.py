@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Square class"""
+
 
 class square():
     """Square class"""
@@ -13,9 +15,11 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """Perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """Pretty printing"""
         return "{}/{}".format(self.width, self.height)
 
 
